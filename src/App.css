@@ -6,3 +6,25 @@ font-size: 2rem;
 text-align: center;
 
 }
+
+.qr {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.github, .linkedin, .instagram, .facebook {
+  color: black;
+}
+.linkedin:hover {
+  color: rgb(30, 57, 108);
+}
+.instagram:hover {
+  color: rgb(255, 253, 38);
+}
+.github:hover {
+  color: purple;
+}
+.facebook:hover {
+  color: rgb(69, 138, 255);
+}
