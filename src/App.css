@@ -1,5 +1,24 @@
 @import '~antd/dist/antd.css';
+.mail-form {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  max-width: 72%;
+  padding-left:400px;
 
+}
+.mail-form input  {
+  display: flex;
+  flex-flow: column;
+  max-width: 70%;
+  margin: 20px;
+  font-size: 1.5rem;
+
+}
+.contact-header {
+  text-align: center;
+  padding: 40px
+}
 .intro {
 padding: 20px;
 font-size: 2rem;
