@@ -23,7 +23,7 @@ const data = [
   {
     title: 'Fun Zone',
     image: 'https://media.giphy.com/media/dvHen6RxKsf804snfo/200.webp',
-    site:  'https:/ /react-funzone.herokuapp.com/',
+    site:  'https://react-funzone.herokuapp.com/',
     description: 'Built with React. Here we have a collection of free apis from around the internet. latest movie data, rick and morty characters, Colorado breweries and much more.'
   },
   {
