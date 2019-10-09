@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Avatar } from 'antd';
+import { List } from 'antd';
 import { Layout} from 'antd';
 
 const { Content} = Layout;
@@ -32,6 +32,13 @@ const data = [
     site:  'https://hungry-engelbart-904bfc.netlify.com/',
     description: 'Built with Gatsby. A collection of Blogs from my time at the flatiron school.'
    },
+  {
+    title: 'Are we there yet?',
+    image: 'map.png',
+    site:  'https://github.com/JosephPR/ski-resorts-colorado',
+    description: 'Built with google maps API. A map of ski resorts in Colorado and Utah, can specify your seach and can tell the distance from any place on the map to any ski resort you chose.'
+   },
+
 
 ];
 
@@ -45,11 +52,19 @@ export default function Projects () {
           dataSource={data}
           renderItem={item => (
             <List.Item>
+            {
+                      <img
+                        width={272}
+                        alt="logo"
+                        src={item.image}
+                        className='img'
+                      />
+                    }
               <List.Item.Meta
 
-                avatar={<Avatar className='avatar' src={item.image} />}
                 title={<a href={item.site}>{item.title}</a>}
                 description={item.description}
+
               />
             </List.Item>
           )}

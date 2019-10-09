@@ -1,4 +1,7 @@
 @import '~antd/dist/antd.css';
+.img {
+  margin:20px
+}
 .mail-form {
   display: flex;
   flex-flow: column;

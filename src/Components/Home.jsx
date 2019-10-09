@@ -6,10 +6,12 @@ import '../App.css'
 
 export default function Home () {
   return(
+
     <div className="intro" style={{ marginTop: 64 }}>
    <Texty mode='random' type='bounce' duration={1000}>Hello</Texty>
    <Texty mode='smooth'  duration={4000}>Welcome to my Portfolio</Texty>
    <Texty mode='sync'  duration={3000}>My name is Joseph Reilly</Texty>
+
    <div className='qr'>
      <h3><a className='github' href='https://github.com/JosephPR'><Icon type="github" /></a></h3>
      <h3><a className='linkedin' href='https://www.linkedin.com/in/josephpr/'><Icon type="linkedin" /></a></h3>
