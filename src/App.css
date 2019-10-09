@@ -1,6 +1,17 @@
 @import '~antd/dist/antd.css';
+.about {
+  display: flex;
+  height: 50%;
+  padding: 40px;
+
+}
+.pic-me {
+  max-width: 60%;
+  height: auto;
+  padding: 20px;
+}
 .img {
-  margin:20px
+  margin:20px;
 }
 .mail-form {
   display: flex;
