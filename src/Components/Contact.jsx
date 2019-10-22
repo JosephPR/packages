@@ -7,6 +7,7 @@ export default function Contact () {
     <div>
       <h1 className='contact-header'>Please reach out I would love to hear from you</h1>
       <ReactContactForm className='mail-form' to="reilly4181@gmail.com" />
+      
     </div>
 
   )

@@ -16,7 +16,7 @@ export default function Home () {
      <h3><a className='github' href='https://github.com/JosephPR'><Icon type="github" /></a></h3>
      <h3><a className='linkedin' href='https://www.linkedin.com/in/josephpr/'><Icon type="linkedin" /></a></h3>
      <h3><a className='instagram' href='https://www.instagram.com/flipnoggin/'><Icon type="instagram" /></a></h3>
-     <h3><a className='facebook' href='https://github.com/JosephPR'><Icon type="facebook" /></a></h3>
+     <h3><a className='facebook' href='https://www.facebook.com/joseph.reilly.169'><Icon type="facebook" /></a></h3>
    </div>
    <div className='qr'>
      <QRCode value='https://github.com/JosephPR' />
