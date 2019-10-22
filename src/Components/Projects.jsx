@@ -13,6 +13,12 @@ const data = [
      easy signup/signin with google through firebase and Stripe API payment integration.`
   },
   {
+    title: 'Jumpman',
+    image: 'https://media.giphy.com/media/h4N5oppT0Bypl4JHyX/giphy.gif',
+    site:  'https://josephpr.github.io/stargame/',
+    description: `Phaser3 application including gravity physics, sprite creation and game design.`
+  },
+  {
     title: 'Wine Cellar',
     image: 'https://media.giphy.com/media/cLlKIC9tmJAmuanEN4/200.webp',
     site:  'https://github.com/JosephPR/wine_app',
