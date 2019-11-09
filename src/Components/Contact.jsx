@@ -23,7 +23,9 @@ export default class Contact extends Component {
   handleSubmit = (event) => {
   event.preventDefault()
   const { email, content } = this.state
+
 this.props.history.push('/Thankyou');
+
   let templateParams = {
 from_name: email,
 to_name: 'Joseph Reilly',
