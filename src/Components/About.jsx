@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
+
     <div className='about'>
       <img className='pic-me' src='trilogy-photo.jpg' alt='beardo' />
       <h3 className="about-paragraph">I am a full stack developer that has a passion to create new and innovative technologies.<br/><br/>

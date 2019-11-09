@@ -1,5 +1,9 @@
 body {
-  background: linear-gradient(to left, #8c44e7, #8c44e7 20%, #34ffe7 95%, #8c44e7 10%);
+  background-image:url("https://www.intopalo.com/img/blog/2014/rails_large.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: difference;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",

@@ -1,14 +1,97 @@
-import React from 'react';
-import ReactContactForm from 'react-mail-form';
-import '../App.css'
+import React, { Component } from 'react';
+import './contact.scss';
+import * as emailjs from 'emailjs-com';
 
-export default function Contact () {
-  return(
-    <div>
-      <h1 className='contact-header'>Please reach out I would love to hear from you</h1>
-      <ReactContactForm className='mail-form' to="reilly4181@gmail.com" />
-      
+
+export default class Contact extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      name: '',
+      email: '',
+      content: '',
+    }
+  }
+
+  handleChange = (event) => {
+    this.setState({
+      [event.target.name]: event.target.value
+    })
+  }
+
+
+  handleSubmit = (event) => {
+  event.preventDefault()
+  const { email, content } = this.state
+this.props.history.push('/Thankyou');
+  let templateParams = {
+from_name: email,
+to_name: 'Joseph Reilly',
+content: content,
+
+}
+emailjs.send(
+'gmail',
+'template_fVA1cmlw',
+ templateParams,
+'user_RJSCiEzvLvsb400VCXzKK'
+)
+this.resetForm()
+  }
+
+resetForm = () => {
+  this.setState ({
+    name: '',
+    email: '',
+    content: '',
+  })
+}
+
+
+  render() {
+    return(
+      <div className='sign-in'>
+      <div className='group'>
+        <form onSubmit={this.handleSubmit}>
+          <label className='form-input-label'>Name</label>
+        <input
+         className="form-input"
+         name="name"
+         type="name"
+         value={this.state.name}
+         onChange={this.handleChange}
+         label="name"
+         required />
+       <label className='form-input-label'>Email</label>
+
+        <input
+         className="form-input"
+         name="email"
+         type="email"
+         value={this.state.email}
+         onChange={this.handleChange}
+         label="email"
+         required />
+       <label className='form-input-label'>Message</label>
+
+       <input
+         className="form-input"
+         name="content"
+         type= "content"
+         value={this.state.content}
+         onChange={this.handleChange}
+         label="content"
+         required />
+       <div >
+         <button className='buttons' type="submit"> Send </button>
+
+       </div>
+
+        </form>
+
+      </div>
     </div>
+    )
+  }
 
-  )
 }

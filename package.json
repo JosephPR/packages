@@ -4,11 +4,14 @@
   "private": true,
   "dependencies": {
     "antd": "^3.23.6",
+    "emailjs-com": "^2.4.0",
+    "node-sass": "^4.13.0",
     "qrcode.react": "^0.9.3",
     "rc-texty": "^0.2.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-mail-form": "^2.0.2",
+    "react-mailto": "^0.4.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },

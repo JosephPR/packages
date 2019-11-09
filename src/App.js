@@ -6,6 +6,7 @@ import Projects from './Components/Projects'
 import About from './Components/About'
 import Home from './Components/Home'
 import Contact from './Components/Contact'
+import Thankyou from './Components/Thankyou'
 
 const { Header} = Layout;
 
@@ -37,6 +38,7 @@ function App() {
      <Route path="/projects" component={Projects} />
      <Route path="/about" component={About} />
      <Route path="/contact" component={Contact} />
+     <Route path="/thankyou" component={Thankyou} />
     </div>
   </Router>
   );
