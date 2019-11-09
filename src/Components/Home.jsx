@@ -2,6 +2,8 @@ import React from 'react';
 import Texty from 'rc-texty';
 import {Icon} from 'antd'
 import QRCode from 'qrcode.react';
+import { Link} from 'react-router-dom';
+
 import '../App.css'
 
 export default function Home() {
@@ -9,9 +11,9 @@ export default function Home() {
     <div className="intro" style={{
         marginTop: 64
       }}>
-      <Texty mode='random' duration={1000}>Hello</Texty>
-      <Texty mode='smooth' duration={4000}>Welcome to my Portfolio</Texty>
-      <Texty mode='sync' duration={3000}>My name is Joseph Reilly</Texty>
+      <Texty mode='random' duration={1000}>Joseph Reilly</Texty>
+      <Texty mode='sync' duration={3000}>Software Engineer</Texty>
+      <Link className='project-link' to='/projects'><Texty mode='smooth' duration={6000}>Click here to check out some of my work</Texty>  </Link>
     </div>
     <div className='qr'>
         <a className='github' href='https://github.com/JosephPR'><Icon type="github"/></a>

@@ -54,6 +54,7 @@ resetForm = () => {
     return(
       <div className='sign-in'>
       <div className='group'>
+        <h1>  <span>&#129310; &#128018;</span>Send me an email <span>&#128018; &#129310; </span></h1>
         <form onSubmit={this.handleSubmit}>
           <label className='form-input-label'>Name</label>
         <input
