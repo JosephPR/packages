@@ -1,7 +1,7 @@
 import React from 'react';
 import Texty from 'rc-texty';
 import {Icon} from 'antd'
-import QRCode from 'qrcode.react';
+// import QRCode from 'qrcode.react';
 import { Link} from 'react-router-dom';
 
 import '../App.css'
@@ -21,12 +21,11 @@ export default function Home() {
         <a className='instagram' href='https://www.instagram.com/flipnoggin/'><Icon type="instagram"/></a>
         <a className='facebook' href='https://www.facebook.com/joseph.reilly.169'><Icon type="facebook"/></a>
     </div>
-    <div className='qr'>
-      <QRCode value='https://github.com/JosephPR'/>
-      <QRCode value='https://www.linkedin.com/in/josephpr/'/>
-      <QRCode value='https://www.instagram.com/flipnoggin/'/>
-      <QRCode value='https://github.com/JosephPR'/>
+    <div className='godzilla' >
+      <img  alt='godzilla' src='https://media.giphy.com/media/hRwpDnvt6lMFSx5J0h/giphy.gif'/>
+      <img  alt='chewwy' src='https://media.giphy.com/media/dvxOsQb2tgOewLVWpP/giphy.gif'/>
 
     </div>
+
   </div>)
 }

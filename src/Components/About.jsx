@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-
+    <>
     <div className='about'>
       <img className='pic-me' src='trilogy-photo.jpg' alt='beardo' />
       <h3 className="about-paragraph">I am a full stack developer that has a passion to create new and innovative technologies.<br/><br/>
@@ -14,5 +14,11 @@ export default function About() {
         It would be my pleasure to buy you a cup of coffee sometime so please reach out so we can get together, look forward to hearing from you!
       </h3>
     </div>
+    <div className='academy-badge'>
+      <a href='http://academy.hubspot.com/certification' title='Inbound'>
+      <img alt='certificate' src='https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-badges/2aad5f4c83ec457f9bf5f246c1a5e605-1573880021016.png' />
+      </a>
+    </div>
+    </>
   )
 }
