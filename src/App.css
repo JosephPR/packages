@@ -69,10 +69,17 @@ text-align: center;
 color: white;
 
 }
+.project-title {
+  font-size: 2rem;
+  color: rgb(21, 46, 185)!important;
+}
+.project-title:hover {
+  font-size: 2.2rem;
+  color: rgb(44, 217, 247)!important;
+}
 
 .qr {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   padding: 40px;
   font-size: 2rem
@@ -80,6 +87,8 @@ color: white;
 
 .github, .linkedin, .instagram, .facebook {
   color: black;
+  font-size: 4rem;
+  
 }
 
 .godzilla {

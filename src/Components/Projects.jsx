@@ -67,7 +67,7 @@ export default function Projects () {
             <List.Item>
             {
                       <img
-                        width={272}
+                        width={672}
                         alt="logo"
                         src={item.image}
                         className='img'
@@ -75,7 +75,7 @@ export default function Projects () {
                     }
               <List.Item.Meta
 
-                title={<a href={item.site}>{item.title}</a>}
+                title={<a className="project-title" href={item.site}>{item.title}</a>}
                 description={item.description}
 
               />
