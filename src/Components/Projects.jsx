@@ -67,7 +67,7 @@ export default function Projects () {
             <List.Item>
             {
                       <img
-                        width={672}
+                        width={652}
                         alt="logo"
                         src={item.image}
                         className='img'
