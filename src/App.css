@@ -7,7 +7,7 @@
 .about-paragraph {
   background-color: rgba(203, 175, 29, 0.22);
   border-radius: 30px;
-  color: white;
+  color: rgb(7, 0, 0);
   font-size: 1rem;
   padding: 20px;
 }
@@ -22,7 +22,12 @@
 .academy-badge {
   display: flex;
   justify-content: center;
+  float:left
 }
+.hub-cert{
+  display:flex;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -30,6 +35,9 @@
 
 .nav{
   background-color: rgb(169, 207, 51);
+}
+.nav-links{
+  font-size: 1.3rem;
 }
 .project-link {
   color: rgb(217, 109, 30);
@@ -39,6 +47,8 @@
 }
 
 .pic-me {
+  display:flex;
+  flex-wrap: wrap;
   max-width: 60%;
   height: auto;
   padding: 20px;

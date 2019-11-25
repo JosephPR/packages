@@ -25,10 +25,10 @@ function App() {
        defaultSelectedKeys={['1']}
        style={{ lineHeight: '64px' }}
      >
-       <Menu.Item key="1"><Link to='/'>Home</Link></Menu.Item>
-       <Menu.Item key="2"><Link to='/projects'>Projects</Link></Menu.Item>
-       <Menu.Item key="3"><Link to='/about'>About</Link></Menu.Item>
-       <Menu.Item key="4"><Link to='/contact'>Contact</Link></Menu.Item>
+       <Menu.Item key="1"><Link className='nav-links' to='/'>Home</Link></Menu.Item>
+       <Menu.Item key="2"><Link className='nav-links' to='/projects'>Projects</Link></Menu.Item>
+       <Menu.Item key="3"><Link className='nav-links' to='/about'>About</Link></Menu.Item>
+       <Menu.Item key="4"><Link className='nav-links' to='/contact'>Contact</Link></Menu.Item>
      </Menu>
    </Header>
 

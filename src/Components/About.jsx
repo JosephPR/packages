@@ -14,11 +14,15 @@ export default function About() {
         It would be my pleasure to buy you a cup of coffee sometime so please reach out so we can get together, look forward to hearing from you!
       </h3>
     </div>
+    <div classNAme='hub-cert'>
     <div className='academy-badge'>
       <a href='http://academy.hubspot.com/certification' title='Inbound'>
       <img alt='certificate' src='https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-badges/2aad5f4c83ec457f9bf5f246c1a5e605-1573880021016.png' />
       </a>
     </div>
+        <img className='presenter' src='https://media.giphy.com/media/iGGgVY0Us9yGEoeCc2/giphy.gif' alt='gif' />
+    </div>
+   
     </>
   )
 }
