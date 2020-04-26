@@ -1,6 +1,13 @@
 $sub-color: grey;
 $main-color: black;
 
+/* HEX */
+$color1: #cad2c5ff;
+$color2: #84a98cff;
+$color3: #52796fff;
+$color4: #354f52ff;
+$color5: #2f3e46ff;
+
 @mixin shrinkLabel {
   top: -14px;
   font-size: 12px;
@@ -58,7 +65,7 @@ $main-color: black;
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 15px;
-  background-color: rgb(39, 73, 191);
+  background-color: $color3;
   color: white;
   text-transform: uppercase;
   font-family: 'Open Sans Condensed';
@@ -70,9 +77,9 @@ $main-color: black;
 
   &:hover {
     transition:  1s;
-    background-color: rgb(131, 199, 232);
+    background-color: $color2;
     color: black;
-    border: 1px solid brown;
+    border: 1px solid $color1;
   }
   &.inverted {
   background-color: white;

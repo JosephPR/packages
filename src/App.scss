@@ -1,0 +1,169 @@
+@import '~antd/dist/antd.css';
+
+/* HSL */
+$color1: hsla(97%, 6%, 82%, 1);
+$color2: hsla(133%, 22%, 66%, 1);
+$color3: hsla(165%, 32%, 47%, 1);
+$color4: hsla(186%, 35%, 32%, 1);
+$color5: hsla(201%, 33%, 27%, 1);
+
+/* RGB */
+$color1: rgba(202, 210, 197, 1);
+$color2: rgba(132, 169, 140, 1);
+$color3: rgba(82, 121, 111, 1);
+$color4: rgba(53, 79, 82, 1);
+$color5: rgba(47, 62, 70, 1);
+
+/* HEX */
+$color1: #cad2c5ff;
+$color2: #84a98cff;
+$color3: #52796fff;
+$color4: #354f52ff;
+$color5: #2f3e46ff;
+
+/* GRADIENT */
+$gradient-top: linear-gradient(0deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
+$gradient-right: linear-gradient(90deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
+$gradient-bottom: linear-gradient(180deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
+$gradient-left: linear-gradient(270deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
+$gradient-top-right: linear-gradient(45deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
+$gradient-bottom-right: linear-gradient(135deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
+$gradient-top-left: linear-gradient(225deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
+$gradient-bottom-left: linear-gradient(315deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
+$gradient-radial: radial-gradient(#cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
+
+.navbar{
+  background-color: $color5;
+}
+.home{
+  background: $color2;
+}
+.heading{
+  color:white;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 3;
+}
+.footer{
+  height: 100px;
+  background-color: $color5;
+}
+.about {
+  display: flex;
+  height: 50%;
+  padding: 40px;
+}
+.about-paragraph {
+  background-color: $color1;
+  border-radius: 30px;
+  color: rgb(7, 0, 0);
+  font-size: 1rem;
+  padding: 20px;
+}
+.about-paragraph:hover {
+  transition: .5s;
+  background-color: $color5;
+  border-radius: 30px;
+  color: white;
+  font-size: 1rem;
+  padding: 20px;
+}
+.academy-badge {
+  display: flex;
+  justify-content: center;
+  float:left
+}
+.hub-cert{
+  display:flex;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links{
+  font-size: 1.5rem;
+}
+.project-link {
+  color: $color4;
+}
+.project-link:hover {
+  color: $color3;
+}
+
+.pic-me {
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 60%;
+  height: auto;
+  padding: 20px;
+}
+.img {
+  margin:20px;
+}
+.mail-form {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  max-width: 72%;
+  padding-left:400px;
+
+}
+.mail-form input  {
+  display: flex;
+  flex-flow: column;
+  max-width: 70%;
+  margin: 20px;
+  font-size: 1.5rem;
+
+}
+.contact-header {
+  text-align: center;
+  padding: 40px
+}
+.intro {
+padding-bottom: 20px;
+font-size: 2rem;
+text-align: center;
+color: white;
+
+}
+.project-title {
+  font-size: 2rem;
+  color: $color4;
+}
+.project-title:hover {
+  font-size: 2.2rem;
+  color: $color3!important;
+}
+
+.qr {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  font-size: 2rem
+}
+
+.github, .linkedin, .instagram, .facebook {
+  color: black;
+  font-size: 4rem;
+  
+}
+
+.godzilla {
+  display: flex;
+  justify-content: center;
+}
+.linkedin:hover {
+  color: rgb(30, 57, 108);
+}
+.instagram:hover {
+  color: rgb(255, 253, 38);
+}
+.github:hover {
+  color: purple;
+}
+.facebook:hover {
+  color: rgb(69, 138, 255);
+}

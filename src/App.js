@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import './App.css';
+import './App.scss';
 import { Layout, Menu} from 'antd';
 import Projects from './Components/Projects'
 import About from './Components/About'
@@ -16,13 +16,13 @@ function App() {
   <Router>
     <div >
       <Layout>
-   <Header style={{ position: 'sticky', zIndex: 1, width: '100%' }}>
+   <Header className="navbar" style={{ position: 'sticky', zIndex: 1, width: '100%' }}>
      <div className="logo" />
      <Menu
-
+       className="navbar"
        theme="dark"
        mode="horizontal"
-       defaultSelectedKeys={['1']}
+       defaultSelectedKeys={['0']}
        style={{ lineHeight: '64px' }}
      >
        <Menu.Item key="1"><Link className='nav-links' to='/'>Home</Link></Menu.Item>

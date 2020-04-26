@@ -4,12 +4,11 @@ import {Icon} from 'antd'
 // import QRCode from 'qrcode.react';
 import { Link} from 'react-router-dom';
 
-import '../App.css'
+import '../App.scss'
 
 export default function Home() {
-  return (<div>
+  return (<div className="home">
     <div className="intro" style={{
-        marginTop: 64
       }}>
         <div className='heading'>
       <Texty mode='random' duration={1000}>Joseph Reilly</Texty>
@@ -26,9 +25,9 @@ export default function Home() {
         <a className='instagram' href='https://www.instagram.com/flipnoggin/'><Icon type="instagram"/></a>
         <a className='facebook' href='https://www.facebook.com/joseph.reilly.169'><Icon type="facebook"/></a>
     </div>
-    <div className='godzilla' >
+    {/* <div className='godzilla' >
       <img  alt='godzilla' src='https://media.giphy.com/media/hRwpDnvt6lMFSx5J0h/giphy.gif'/>
-    </div>
-
+    </div> */}
+  <footer className="footer">JPR</footer>
   </div>)
 }
