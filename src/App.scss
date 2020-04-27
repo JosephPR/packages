@@ -32,11 +32,18 @@ $gradient-top-left: linear-gradient(225deg, #cad2c5ff, #84a98cff, #52796fff, #35
 $gradient-bottom-left: linear-gradient(315deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
 $gradient-radial: radial-gradient(#cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
 
-.navbar{
+li.ant-menu-item-selected{
+  background-color: $color3!important;
+}
+.top-navbar{
   background-color: $color5;
+  display: flex;
+  justify-content: inherit;
 }
 .home{
   background: $color2;
+  height: 100%;
+ 
 }
 .heading{
   color:white;
@@ -47,14 +54,30 @@ $gradient-radial: radial-gradient(#cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2
 .footer{
   height: 100px;
   background-color: $color5;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+.links {
+  padding: 30px 0 90px 0;
+  font-size: 40px;
+}
+.main-container{
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
 }
 .about {
   display: flex;
   height: 50%;
   padding: 40px;
+  background-color: $color2;
 }
 .about-paragraph {
-  background-color: $color1;
+  background-color: $color2;
   border-radius: 30px;
   color: rgb(7, 0, 0);
   font-size: 1rem;
@@ -62,7 +85,7 @@ $gradient-radial: radial-gradient(#cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2
 }
 .about-paragraph:hover {
   transition: .5s;
-  background-color: $color5;
+  background-color: $color4;
   border-radius: 30px;
   color: white;
   font-size: 1rem;
@@ -81,6 +104,10 @@ $gradient-radial: radial-gradient(#cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2
   display: flex;
   flex-direction: column;
 }
+.icon{
+  padding-left: 20em;
+}
+
 
 .nav-links{
   font-size: 1.5rem;
@@ -141,7 +168,7 @@ color: white;
 .qr {
   display: flex;
   justify-content: space-around;
-  padding: 40px;
+  padding: 40px 20px 80px 20px;
   font-size: 2rem
 }
 

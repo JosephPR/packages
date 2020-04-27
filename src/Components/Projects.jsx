@@ -57,7 +57,7 @@ const data = [
 
 export default function Projects () {
   return(
-    <Layout>
+    <Layout className="layout">
       <Content style={{ padding: '0 50px', marginTop: 64 }}>
         <List
           className='list'
