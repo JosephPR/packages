@@ -1,4 +1,5 @@
 @import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Mukta:400,700&display=swap');
 
 /* HSL */
 $color1: hsla(97%, 6%, 82%, 1);
@@ -31,7 +32,6 @@ $gradient-bottom-right: linear-gradient(135deg, #cad2c5ff, #84a98cff, #52796fff,
 $gradient-top-left: linear-gradient(225deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
 $gradient-bottom-left: linear-gradient(315deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
 $gradient-radial: radial-gradient(#cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
-
 li.ant-menu-item-selected{
   background-color: $color3!important;
 }
@@ -42,16 +42,21 @@ li.ant-menu-item-selected{
 }
 .home{
   background: $color2;
-  height: 100%;
+  min-height: 100vh;
  
 }
 .heading{
+
   color:white;
   font-size: 50px;
   font-weight: 700;
   line-height: 3;
 }
 .footer{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color:$color1;
   height: 100px;
   background-color: $color5;
   position: absolute;
@@ -60,6 +65,7 @@ li.ant-menu-item-selected{
 
 }
 .links {
+  
   padding: 30px 0 90px 0;
   font-size: 40px;
 }

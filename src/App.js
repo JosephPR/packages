@@ -22,7 +22,7 @@ function App() {
        className="top-navbar"
        theme="dark"
        mode="horizontal"
-       defaultSelectedKeys={['0']}
+       defaultSelectedKeys={['1']}
        style={{ lineHeight: '64px' }}
      >
     
@@ -39,7 +39,7 @@ function App() {
      </Menu>
    </Header>
 
-   <footer className="footer">JPR</footer>
+   <footer className="footer"></footer>
  </Layout>
 
     <Route exact path="/" component={Home} />
