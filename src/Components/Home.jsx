@@ -15,8 +15,8 @@ export default function Home() {
       <Texty mode='sync' duration={3000}>Software Engineer</Texty>
         </div>
      <div className='links'>
-     <Link className='project-link' to='/projects'><Texty mode='smooth' duration={3000}>Click here to check out some of my work</Texty>  </Link>
-      <a className='project-link' href='https://docs.google.com/document/d/1tO05_yABI3o6cGgVrt_zy4tXTHdErPQWg3E00IqRm_U/'><Texty mode='random' duration={3000}>Here's my Resume</Texty></a>
+     <Link className='buttons' to='/projects'><Texty mode='smooth' duration={3000}>Projects</Texty>  </Link>
+      <a className='buttons' href='https://docs.google.com/document/d/1tO05_yABI3o6cGgVrt_zy4tXTHdErPQWg3E00IqRm_U/'><Texty mode='random' duration={3000}>Resume</Texty></a>
      </div>
     </div>
  

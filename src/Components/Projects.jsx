@@ -2,6 +2,7 @@ import React from 'react';
 import { List } from 'antd';
 import { Layout} from 'antd';
 
+
 const { Content} = Layout;
 
 const data = [
@@ -9,7 +10,7 @@ const data = [
     title: 'JobEye',
     image: 'https://media.giphy.com/media/ZD26dN63d54bs1729Q/giphy.gif',
     site:  'https://github.com/JosephPR/job-search',
-    description: `Built with MongoDB, Node, React and TailwindCSS. Jobeye is meant to help anyone on the journey of seearching for a Job. It will keep track of all jobs that have been applied for. Updating the status of your applications is a
+    description: `Built with MongoDB, Node, React and TailwindCSS. Jobeye is meant to help anyone on the journey of searching for a Job. It will keep track of all jobs that have been applied for. Updating the status of your applications is a
       breeze, and login will keep all of you information secure with to use of JWT web tokens and bcrypt.`
   },
   {

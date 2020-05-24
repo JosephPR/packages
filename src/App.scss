@@ -11,6 +11,7 @@ $color5: hsla(201%, 33%, 27%, 1);
 /* RGB */
 $color1: rgba(202, 210, 197, 1);
 $color2: rgba(132, 169, 140, 1);
+$color2a: rgba(132, 169, 140, .4);
 $color3: rgba(82, 121, 111, 1);
 $color4: rgba(53, 79, 82, 1);
 $color5: rgba(47, 62, 70, 1);
@@ -32,6 +33,7 @@ $gradient-bottom-right: linear-gradient(135deg, #cad2c5ff, #84a98cff, #52796fff,
 $gradient-top-left: linear-gradient(225deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
 $gradient-bottom-left: linear-gradient(315deg, #cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
 $gradient-radial: radial-gradient(#cad2c5ff, #84a98cff, #52796fff, #354f52ff, #2f3e46ff);
+
 li.ant-menu-item-selected{
   background-color: $color3!important;
 }
@@ -41,21 +43,23 @@ li.ant-menu-item-selected{
   justify-content: inherit;
 }
 .home{
-  background: $color2;
-  min-height: 100vh;
+  background: url('https://cdn.superstock.com/5514/Download/5514-111950247.jpg')60% 32%;
+  background-size: cover;
+    min-height: 70vh;
  
 }
 .heading{
-
+ 
   color:white;
-  font-size: 50px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 3;
+  padding: 4% 30%;
 }
 .footer{
   display: flex;
-  justify-content: center;
-  font-size: 40px;
+  justify-content: space-evenly;
+  font-size: 20px;
   color:$color1;
   height: 100px;
   background-color: $color5;
@@ -64,12 +68,25 @@ li.ant-menu-item-selected{
   width: 100%;
 
 }
+.footer-links{
+  padding: 20px ;
+  position: relative;
+  top: 33%;
+}
+.footer-text{
+  color: black;
+  margin-top: 35px;
+}
 .links {
-  
-  padding: 30px 0 90px 0;
-  font-size: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 30px 10px;
+  font-size: 30px;
 }
 .main-container{
+  background: url('https://cdn.superstock.com/5514/Download/5514-111950247.jpg')60% 32%;
+  background-size: cover;
   min-height: 100vh; /* will cover the 100% of viewport */
   overflow: hidden;
   display: block;
@@ -77,25 +94,24 @@ li.ant-menu-item-selected{
   padding-bottom: 100px; /* height of your footer */
 }
 .about {
+  background: url('https://cdn.superstock.com/1815/Download/1815-111726132.jpg')60% 32%;
+  background-size: cover;
   display: flex;
   height: 50%;
   padding: 40px;
   background-color: $color2;
 }
 .about-paragraph {
-  background-color: $color2;
+  background-color: $color2a;
   border-radius: 30px;
   color: rgb(7, 0, 0);
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 20px;
 }
 .about-paragraph:hover {
   transition: .5s;
   background-color: $color4;
-  border-radius: 30px;
   color: white;
-  font-size: 1rem;
-  padding: 20px;
 }
 .academy-badge {
   display: flex;
@@ -116,13 +132,20 @@ li.ant-menu-item-selected{
 
 
 .nav-links{
-  font-size: 1.5rem;
+font-size: 1.4em;
 }
 .project-link {
-  color: $color4;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  color: $color5;
+  margin: auto 10px;
+  background-color: $color2;
 }
 .project-link:hover {
-  color: $color3;
+  transition: 1s;
+  color: $color5;
+  background-color: $color1;
 }
 
 .pic-me {
@@ -135,7 +158,11 @@ li.ant-menu-item-selected{
 .img {
   margin:20px;
 }
+.sign-in, .email-title{
+  color: $color1;
+}
 .mail-form {
+
   display: flex;
   flex-flow: column;
   align-content: center;
@@ -180,7 +207,7 @@ color: white;
 
 .github, .linkedin, .instagram, .facebook {
   color: black;
-  font-size: 4rem;
+  font-size: 1.4rem;
   
 }
 
@@ -189,14 +216,18 @@ color: white;
   justify-content: center;
 }
 .linkedin:hover {
-  color: rgb(30, 57, 108);
+  transition: .5s;
+  color: rgb(30, 57, 108)!important;
 }
 .instagram:hover {
-  color: rgb(255, 253, 38);
+  transition: .5s;
+  color: rgb(255, 253, 38)!important;
 }
 .github:hover {
-  color: purple;
+  transition: .5s;
+  color: purple!important;
 }
 .facebook:hover {
-  color: rgb(69, 138, 255);
+  transition: .5s;
+  color: rgb(69, 138, 255)!important;
 }
