@@ -5,7 +5,7 @@
   "dependencies": {
     "antd": "^3.26.16",
     "emailjs-com": "^2.4.1",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "qrcode.react": "^0.9.3",
     "rc-texty": "^0.2.0",
     "react": "^16.13.1",
